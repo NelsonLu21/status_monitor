@@ -16,7 +16,7 @@ function StatusTable() {
 
     const columns = [
         {
-            title: "Computer",
+            title: "Rig",
             dataIndex: "computer",
             key: "computer",
             render: (text) => (
@@ -88,7 +88,7 @@ function StatusTable() {
                 {selected && (
                     <div>
                         <p>
-                            <strong>Computer:</strong> {selected.computer}
+                            <strong>Rig:</strong> {selected.computer}
                         </p>
                         <p>
                             <strong>Status:</strong> {selected.status}

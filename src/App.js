@@ -43,7 +43,7 @@ function App() {
                             fontWeight: "bold",
                         }}
                     >
-                        STAD Team Dashboard
+                        STAD Team Rig Dashboard
                     </Text>
                     <Menu
                         theme="dark"
